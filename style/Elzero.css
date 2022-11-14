@@ -364,7 +364,11 @@ header .links ul li a i {
     -webkit-animation: arrow-down 0.3s ease infinite alternate;
     animation-delay: 2s;
 }
-
+@media(max-width:767px) {
+    .landing .container .down {
+        top: -80px;
+    }
+}
 .landing .container .down a i {
     color: var(--main-color);
     font-weight: 900;
